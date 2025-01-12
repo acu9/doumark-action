@@ -21,14 +21,6 @@ jobs:
         format: csv
         dir: ./data/douban
 
-    - name: music
-      uses: lizheming/doumark-action@master
-      with:
-        id: 253159638
-        type: music
-        format: csv
-        dir: ./data/douban
-
     - name: book
       uses: lizheming/doumark-action@master
       with:
