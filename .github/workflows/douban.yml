@@ -1,6 +1,8 @@
 # .github/workflows/douban.yml
 name: douban
-on: push
+on: 
+  schedule:
+  - cron: "40 * * * *"
 
 jobs:
   douban:
